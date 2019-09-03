@@ -1,0 +1,23 @@
+.induk{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: blue;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.anak{
+    text-align: center;
+    flex-basis: 150px;
+    color:white;
+    height: 30px;
+}
+
+.anak:hover{
+    background: black;
+}
+@media(max-width:600px){
+    .anak{
+        flex-grow:1;
+    }
+}
